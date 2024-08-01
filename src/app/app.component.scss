@@ -1,0 +1,63 @@
+body {
+    background-color: #7469B6;
+    margin: 0px;
+}
+.keyboard {
+    background-color: #7469B6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+#play-card {
+    background-color: #7469B6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 3px double #E1AFD1;
+    border-radius: 10px;
+    color: #FFE6E6;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFE6E6;
+}
+
+#bottom > button {
+    width: 100px;
+    height: 50px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    background-color: #E1AFD1;
+    font-size: 30px;
+    color: #FFE6E6;
+    border: 1px solid #2F3645;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+input {
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    border: 3px solid #E1AFD1;
+    border-radius: 10px;
+}
