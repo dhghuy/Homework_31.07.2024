@@ -90,11 +90,11 @@ export class AppComponent {
     @HostListener('document: keydown',['$event'])
     handleKeyboardEvent(event: KeyboardEvent) {
       let key = event.key;
-    if (key == event.key) {
-      // đổi màu phím khi đánh chữ
+    // if (key == event.key) {
+    //    đổi màu phím khi đánh chữ
 
-        // console.log("Phim:"+ key);
-    } 
+    //    console.log("Phim:"+ key);
+    // } 
 
     if (key ==" "){
       if (this.check.trim() == this.word && this.time != 0) {
